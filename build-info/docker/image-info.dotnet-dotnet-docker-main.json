@@ -644,6 +644,46 @@
         {
           "productVersion": "6.0.8",
           "manifest": {
+            "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:03443189eeada54025e32f6c608243919bf414da47bd8ff583c0e11b5a39c299",
+            "created": "2022-09-06T13:29:29.0622928Z",
+            "sharedTags": [
+              "6.0-bullseye-slim",
+              "6.0.8-bullseye-slim"
+            ]
+          },
+          "platforms": [
+            {
+              "dockerfile": "src/aspnet/6.0/bullseye-slim/amd64/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:46ffacbee1201ce0a4bffe05accfba50ba0ed1fb45a4c9e499bf0b1db5c29687",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "amd64",
+              "created": "2022-09-06T12:48:25.0009363Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/amd64/Dockerfile"
+            },
+            {
+              "dockerfile": "src/aspnet/6.0/bullseye-slim/arm32v7/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:1a5452536b7e6c8039cee0e5172c3f994a56770018dea36af00c2205f1ff4e86",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "arm32",
+              "created": "2022-09-06T12:46:18.0007337Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/arm32v7/Dockerfile"
+            },
+            {
+              "dockerfile": "src/aspnet/6.0/bullseye-slim/arm64v8/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:f31543b4272c139bf257029ae20e62c4ea7636bd5b53bb762226b13004aec511",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "arm64",
+              "created": "2022-09-06T12:45:47.0005129Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/arm64v8/Dockerfile"
+            }
+          ]
+        },
+        {
+          "productVersion": "6.0.8",
+          "manifest": {
             "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:ad502e99c8126b573f904fe7b017942f72ca526af0d316639ee082b9357d633f",
             "created": "2022-09-06T13:29:29.0622928Z",
             "sharedTags": [
@@ -1159,42 +1199,30 @@
           ]
         },
         {
-          "productVersion": "6.0.8",
-          "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:03443189eeada54025e32f6c608243919bf414da47bd8ff583c0e11b5a39c299",
-            "created": "2022-09-06T13:29:29.0622928Z",
-            "sharedTags": [
-              "6.0-bullseye-slim",
-              "6.0.8-bullseye-slim"
-            ]
-          },
+          "productVersion": "7.0.0-preview.7",
           "platforms": [
             {
-              "dockerfile": "src/aspnet/6.0/bullseye-slim/amd64/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:46ffacbee1201ce0a4bffe05accfba50ba0ed1fb45a4c9e499bf0b1db5c29687",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
+              "dockerfile": "src/aspnet/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
+              "simpleTags": [
+                "7.0-windowsservercore-ltsc2019",
+                "7.0.0-preview.7-windowsservercore-ltsc2019"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:5a70febfbce418f3f5fbcad630c9f8e25177e8ec3d96b55497431688b616773a",
+              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:976654b4e5d8e89f2efdf462f7ee17a1020f30443d4650cdd50014bce30fe0a7",
+              "osType": "Windows",
+              "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2022-09-06T12:48:25.0009363Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/amd64/Dockerfile"
-            },
-            {
-              "dockerfile": "src/aspnet/6.0/bullseye-slim/arm32v7/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:1a5452536b7e6c8039cee0e5172c3f994a56770018dea36af00c2205f1ff4e86",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
-              "architecture": "arm32",
-              "created": "2022-09-06T12:46:18.0007337Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/arm32v7/Dockerfile"
-            },
-            {
-              "dockerfile": "src/aspnet/6.0/bullseye-slim/arm64v8/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:f31543b4272c139bf257029ae20e62c4ea7636bd5b53bb762226b13004aec511",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
-              "architecture": "arm64",
-              "created": "2022-09-06T12:45:47.0005129Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/aspnet/6.0/bullseye-slim/arm64v8/Dockerfile"
+              "created": "2022-08-09T17:25:02.9881206Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/dfed29cd1013ab971a0ca52f28dd6e4d5a3f0ce8/src/aspnet/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
+              "layers": [
+                "sha256:f28a7f2f7e0b9ecbc310644e7458b9253eeab1695a2f1a6e07b0385434918b6f",
+                "sha256:9e380cc5ece69821a96a1d7d65ef490ca99112f3c4a561a1bff55ca5320ac1c4",
+                "sha256:3b83c43efe14600d401a292179f6681dcf9283756d02b93e988a8efaa8a89d97",
+                "sha256:dab39e51241748df91141d0e0b9ed4a2bf845618f184c8645695ceb66d98bd56",
+                "sha256:1f6a557e0a56c293044cd803d44f9690ce2b3590691d68d179582be16b084837",
+                "sha256:294d77ac553d7210b662d07674ef9e39a6c2e88dc15b9d2788d51e509bc8b54e",
+                "sha256:b111c3320c949bea81612bf4554f1b6592c2f504920b5bf57ba340a1d4d52c93"
+              ]
             }
           ]
         },
@@ -1627,34 +1655,6 @@
                 "sha256:b6f018d59ea81529fb87643b7895ad36b1c97ebcd90ca6829b58dd05e36cacc0",
                 "sha256:28887753b283a570d2d61a1f324ac1d1d3fded5b9d64bef50412e2e0a927043d",
                 "sha256:00f50047d6061c27e70588a5aab89adada756e87d782a6c6bd08b4139eb8ea10"
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "7.0.0-preview.7",
-          "platforms": [
-            {
-              "dockerfile": "src/aspnet/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
-              "simpleTags": [
-                "7.0-windowsservercore-ltsc2019",
-                "7.0.0-preview.7-windowsservercore-ltsc2019"
-              ],
-              "digest": "mcr.microsoft.com/dotnet/aspnet@sha256:5a70febfbce418f3f5fbcad630c9f8e25177e8ec3d96b55497431688b616773a",
-              "baseImageDigest": "mcr.microsoft.com/dotnet/runtime@sha256:976654b4e5d8e89f2efdf462f7ee17a1020f30443d4650cdd50014bce30fe0a7",
-              "osType": "Windows",
-              "osVersion": "windowsservercore-ltsc2019",
-              "architecture": "amd64",
-              "created": "2022-08-09T17:25:02.9881206Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/dfed29cd1013ab971a0ca52f28dd6e4d5a3f0ce8/src/aspnet/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
-              "layers": [
-                "sha256:f28a7f2f7e0b9ecbc310644e7458b9253eeab1695a2f1a6e07b0385434918b6f",
-                "sha256:9e380cc5ece69821a96a1d7d65ef490ca99112f3c4a561a1bff55ca5320ac1c4",
-                "sha256:3b83c43efe14600d401a292179f6681dcf9283756d02b93e988a8efaa8a89d97",
-                "sha256:dab39e51241748df91141d0e0b9ed4a2bf845618f184c8645695ceb66d98bd56",
-                "sha256:1f6a557e0a56c293044cd803d44f9690ce2b3590691d68d179582be16b084837",
-                "sha256:294d77ac553d7210b662d07674ef9e39a6c2e88dc15b9d2788d51e509bc8b54e",
-                "sha256:b111c3320c949bea81612bf4554f1b6592c2f504920b5bf57ba340a1d4d52c93"
               ]
             }
           ]
@@ -2757,6 +2757,46 @@
         {
           "productVersion": "6.0.8",
           "manifest": {
+            "digest": "mcr.microsoft.com/dotnet/runtime@sha256:f078e58251eeaec4622e3b2ceb2ec144ff1e3e74ea32748b62f9aea5b9331e6b",
+            "created": "2022-09-06T13:29:29.0622928Z",
+            "sharedTags": [
+              "6.0-bullseye-slim",
+              "6.0.8-bullseye-slim"
+            ]
+          },
+          "platforms": [
+            {
+              "dockerfile": "src/runtime/6.0/bullseye-slim/amd64/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:e109083dcd6f40ee59aedaf3f96438d1050d6d469a928aa82af5b9a3f02af06d",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "amd64",
+              "created": "2022-09-06T12:48:09.8548585Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/amd64/Dockerfile"
+            },
+            {
+              "dockerfile": "src/runtime/6.0/bullseye-slim/arm32v7/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:35e6733f727f7b4456d0205d940ce9c97a934b2a8facb27b893bad4f9238a90a",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "arm32",
+              "created": "2022-09-06T12:46:03.856478Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/arm32v7/Dockerfile"
+            },
+            {
+              "dockerfile": "src/runtime/6.0/bullseye-slim/arm64v8/Dockerfile",
+              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:bebf9c98cc933a3bff10df5141491cf081eaecb9e518b404d6b0ee8b3ebd4d01",
+              "osType": "Linux",
+              "osVersion": "bullseye-slim",
+              "architecture": "arm64",
+              "created": "2022-09-06T12:45:34.7172301Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/arm64v8/Dockerfile"
+            }
+          ]
+        },
+        {
+          "productVersion": "6.0.8",
+          "manifest": {
             "digest": "mcr.microsoft.com/dotnet/runtime@sha256:43039713d06f86cce8d07f00f337d8cb750c2b5df9914b361ee46d508e11ef00",
             "created": "2022-09-06T13:29:29.0622928Z",
             "sharedTags": [
@@ -3249,42 +3289,28 @@
           ]
         },
         {
-          "productVersion": "6.0.8",
-          "manifest": {
-            "digest": "mcr.microsoft.com/dotnet/runtime@sha256:f078e58251eeaec4622e3b2ceb2ec144ff1e3e74ea32748b62f9aea5b9331e6b",
-            "created": "2022-09-06T13:29:29.0622928Z",
-            "sharedTags": [
-              "6.0-bullseye-slim",
-              "6.0.8-bullseye-slim"
-            ]
-          },
+          "productVersion": "7.0.0-preview.7",
           "platforms": [
             {
-              "dockerfile": "src/runtime/6.0/bullseye-slim/amd64/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:e109083dcd6f40ee59aedaf3f96438d1050d6d469a928aa82af5b9a3f02af06d",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
+              "dockerfile": "src/runtime/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
+              "simpleTags": [
+                "7.0-windowsservercore-ltsc2019",
+                "7.0.0-preview.7-windowsservercore-ltsc2019"
+              ],
+              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:976654b4e5d8e89f2efdf462f7ee17a1020f30443d4650cdd50014bce30fe0a7",
+              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:58f4d0a5b54f69d95befe2dee0e298071aa38c8afd7b584895feca260818abc5",
+              "osType": "Windows",
+              "osVersion": "windowsservercore-ltsc2019",
               "architecture": "amd64",
-              "created": "2022-09-06T12:48:09.8548585Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/amd64/Dockerfile"
-            },
-            {
-              "dockerfile": "src/runtime/6.0/bullseye-slim/arm32v7/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:35e6733f727f7b4456d0205d940ce9c97a934b2a8facb27b893bad4f9238a90a",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
-              "architecture": "arm32",
-              "created": "2022-09-06T12:46:03.856478Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/arm32v7/Dockerfile"
-            },
-            {
-              "dockerfile": "src/runtime/6.0/bullseye-slim/arm64v8/Dockerfile",
-              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:bebf9c98cc933a3bff10df5141491cf081eaecb9e518b404d6b0ee8b3ebd4d01",
-              "osType": "Linux",
-              "osVersion": "bullseye-slim",
-              "architecture": "arm64",
-              "created": "2022-09-06T12:45:34.7172301Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/18ede68e65c2571914adad08484f230204292a83/src/runtime/6.0/bullseye-slim/arm64v8/Dockerfile"
+              "created": "2022-08-09T17:24:53.6420018Z",
+              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/dfed29cd1013ab971a0ca52f28dd6e4d5a3f0ce8/src/runtime/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
+              "layers": [
+                "sha256:3b83c43efe14600d401a292179f6681dcf9283756d02b93e988a8efaa8a89d97",
+                "sha256:dab39e51241748df91141d0e0b9ed4a2bf845618f184c8645695ceb66d98bd56",
+                "sha256:1f6a557e0a56c293044cd803d44f9690ce2b3590691d68d179582be16b084837",
+                "sha256:294d77ac553d7210b662d07674ef9e39a6c2e88dc15b9d2788d51e509bc8b54e",
+                "sha256:b111c3320c949bea81612bf4554f1b6592c2f504920b5bf57ba340a1d4d52c93"
+              ]
             }
           ]
         },
@@ -3700,32 +3726,6 @@
                 "sha256:b6f018d59ea81529fb87643b7895ad36b1c97ebcd90ca6829b58dd05e36cacc0",
                 "sha256:28887753b283a570d2d61a1f324ac1d1d3fded5b9d64bef50412e2e0a927043d",
                 "sha256:00f50047d6061c27e70588a5aab89adada756e87d782a6c6bd08b4139eb8ea10"
-              ]
-            }
-          ]
-        },
-        {
-          "productVersion": "7.0.0-preview.7",
-          "platforms": [
-            {
-              "dockerfile": "src/runtime/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
-              "simpleTags": [
-                "7.0-windowsservercore-ltsc2019",
-                "7.0.0-preview.7-windowsservercore-ltsc2019"
-              ],
-              "digest": "mcr.microsoft.com/dotnet/runtime@sha256:976654b4e5d8e89f2efdf462f7ee17a1020f30443d4650cdd50014bce30fe0a7",
-              "baseImageDigest": "mcr.microsoft.com/windows/servercore@sha256:58f4d0a5b54f69d95befe2dee0e298071aa38c8afd7b584895feca260818abc5",
-              "osType": "Windows",
-              "osVersion": "windowsservercore-ltsc2019",
-              "architecture": "amd64",
-              "created": "2022-08-09T17:24:53.6420018Z",
-              "commitUrl": "https://github.com/dotnet/dotnet-docker/blob/dfed29cd1013ab971a0ca52f28dd6e4d5a3f0ce8/src/runtime/7.0/windowsservercore-ltsc2019/amd64/Dockerfile",
-              "layers": [
-                "sha256:3b83c43efe14600d401a292179f6681dcf9283756d02b93e988a8efaa8a89d97",
-                "sha256:dab39e51241748df91141d0e0b9ed4a2bf845618f184c8645695ceb66d98bd56",
-                "sha256:1f6a557e0a56c293044cd803d44f9690ce2b3590691d68d179582be16b084837",
-                "sha256:294d77ac553d7210b662d07674ef9e39a6c2e88dc15b9d2788d51e509bc8b54e",
-                "sha256:b111c3320c949bea81612bf4554f1b6592c2f504920b5bf57ba340a1d4d52c93"
               ]
             }
           ]
